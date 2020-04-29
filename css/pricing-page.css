@@ -1,0 +1,108 @@
+/* Background Image Media Queries */
+body.pricing {
+	background-image: url('https://images.pexels.com/photos/1624895/pexels-photo-1624895.jpeg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media screen and (min-width: 640px){
+	body.login {
+		background-image: url('https://images.pexels.com/photos/1624895/pexels-photo-1624895.jpeg');
+	}
+}	
+@media screen and (min-width: 960px){
+	body.login {
+		background-image: url('https://images.pexels.com/photos/1624895/pexels-photo-1624895.jpeg');
+	}
+}	
+@media screen and (min-width: 1200px){
+	body.login {
+		background-image: url('https://images.pexels.com/photos/1624895/pexels-photo-1624895.jpeg');
+	}
+}	
+@media screen and (min-width: 1600px){
+	body.login {
+		background-image: url('https://images.pexels.com/photos/1624895/pexels-photo-1624895.jpeg');
+	}
+	}
+
+.uk-button-default {
+    background-color: #F44336;
+    color: #fff;
+    border: 2px solid #F44336;
+}
+uk-button-primary {
+    background-color: transparent !important;
+    color: #fff !important;
+    border: 2px solid #FF9800 !important;
+    
+}
+
+.uk-link, a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+html {
+	color: #fff;
+}
+
+h2 {
+	color: #fff;
+}
+
+#Card-PRO {
+	background-color: transparent;
+    color: #fff;
+    border: 2px solid #f44336;
+    border-filter: blur(3px);    
+}
+#Card-Business {
+	background-color: transparent;
+    color: #fff;
+    border: 2px solid #4caf50;
+    border-filter: blur(3px);    
+}
+#Card-Basic {
+	background-color: transparent;
+    color: #fff;
+    border: 2px solid #00bcd4;
+    border-filter: blur(3px);    
+}
+
+
+.uk-card-body {
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    padding-bottom: 0px;
+    padding: 0px 0px;
+
+}
+.uk-card-default .uk-card-footer {
+    border-top: 0px solid #e5e5e5;
+}
+.uk-border-pill {
+    border-radius: 500px;
+
+}
+.uk-card-footer {
+    padding: 30px;
+    padding-bottom: 45px;
+}
+.uk-padding-large {
+    padding-top: 30px !important;
+        padding: 0px;
+}
+.uk-overlay-primary {
+    background: rgba(30, 35, 35, 0.9);
+}
+.uk-icon[uk-icon="home"] svg path {
+fill: #fff;
+}
+.uk-button-default:focus, .uk-button-default:hover {
+    background-color: #FF9800 !important;
+    color: #fff;
+    border-color: #FF9800 !important;
+}
+}

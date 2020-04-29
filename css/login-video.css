@@ -1,0 +1,26 @@
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: rgba(170, 170, 170, 0.1);
+}
+
+.uk-button-semitransparent {
+    background-color: #ffffff1a;
+    color: #fff;
+    border: 15px solid rgba(0, 0, 0, 0.1);
+}
+
+.uk-position-top-center {
+    top: 115px;
+}
+
+.uk-position-bottom-center {
+    bottom: -250px;
+}
+
+#B-Login {
+	background-color: transparent;
+    color: #fff;
+    border: 2px solid #00bcd4;
+    border-filter: blur(3px);    
+
+
+
